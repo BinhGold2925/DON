@@ -52,19 +52,19 @@
 }
 @media (max-width: 576px) {
     .welcome-area{
-        height: 350px;
+        height: 330px;
     }
     .header .title{
     padding:5px 0;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 800;
     }
     .header{
-        height:80px;
+        height:70px;
     }
     .header .index ul{
         font-size: 14px;
-
+        margin-bottom: 5px;
     }
 }
 
