@@ -102,6 +102,7 @@
 }
 .infor .img:hover{
     background-color: #FFD500;
+    color:red;
 }
 .infor .pic1{
     background-image: url(../images/89179b01-2c7b-4383-8351-9ae52eaeb5b5.jpg);
@@ -122,4 +123,20 @@
 .infor .img h6{
     font-weight: 700;
     margin-bottom: 50px;
+}
+.infor .seri{
+    text-align: center;
+    background-color: #fff;
+    padding:20px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.infor .seri a{
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+}
+.infor .seri a:hover{
+    color:red;
 }
