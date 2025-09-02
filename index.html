@@ -74,7 +74,9 @@
                 </div>
                 <div class="col-12">
                     <div class="seri">
-                        <a href="https://docs.google.com/spreadsheets/d/1XqsOSnmPGCPReacoDEZH2LuyrhWZdJXP3Ztb_G0ory4/edit?usp=sharing">Danh Sách Phòng Không Nên Ở</a>
+                        <a
+                            href="https://docs.google.com/spreadsheets/d/1XqsOSnmPGCPReacoDEZH2LuyrhWZdJXP3Ztb_G0ory4/edit?usp=sharing"> < Danh
+                            Sách Phòng Không Nên Ở > </a>
                     </div>
                 </div>
             </div>
@@ -99,9 +101,68 @@
         });
     </script>
 
+    <!--  -->
 
 
+    <!-- comment -->
+    <div class="cmt" id="comment">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="title">COMMENT</h3>
+                </div>
+                <div class="col-12">
+                    <textarea id="commentInput" rows="3" placeholder="Viết bình luận..."></textarea>
+                </div>
+                <div class="col-12" id="submitComment">
+                    <button>Gửi</button>
+                </div>
+                <div class="col-12">
+                    <h3 class="cmts">Danh sách bình luận:</h3>
+                </div>
+                <div class="col-12">
+                    <div id="comments"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <script>
+        const input = document.getElementById("commentInput");
+        const button = document.getElementById("submitComment");
+        const commentsDiv = document.getElementById("comments");
+
+        // --- Hàm hiển thị tất cả comment ---
+        function loadComments() {
+            const comments = JSON.parse(localStorage.getItem("comments")) || [];
+            commentsDiv.innerHTML = ""; // xóa cũ
+            comments.forEach(text => {
+                const newComment = document.createElement("div");
+                newComment.classList.add("comment");
+                newComment.textContent = text;
+                commentsDiv.appendChild(newComment);
+            });
+        }
+        // --- Gửi comment ---
+        button.addEventListener("click", () => {
+            const text = input.value.trim();
+            if (text !== "") {
+                // Lấy comment cũ trong localStorage
+                const comments = JSON.parse(localStorage.getItem("comments")) || [];
+                comments.push(text); // thêm mới
+                // Lưu lại vào localStorage
+                localStorage.setItem("comments", JSON.stringify(comments));
+                // Cập nhật hiển thị
+                loadComments();
+                // Xóa ô nhập
+                input.value = "";
+            } else {
+                alert("Vui lòng nhập nội dung comment!");
+            }
+        });
+        // --- Khi load lại trang thì hiển thị ---
+        loadComments();
+    </script>
 
 
 
