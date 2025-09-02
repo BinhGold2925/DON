@@ -12,7 +12,7 @@
     align-items: center;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     border-radius: 40px;
-    min-height: 80px;
+    min-height: 60px;
     background: #ffffff;
     text-align: center;
 }
@@ -52,8 +52,19 @@
 }
 @media (max-width: 576px) {
     .welcome-area{
-        width:100vw;
-        height: 400px;
+        height: 350px;
+    }
+    .header .title{
+    padding:5px 0;
+    font-size: 24px;
+    font-weight: 800;
+    }
+    .header{
+        height:80px;
+    }
+    .header .index ul{
+        font-size: 14px;
+
     }
 }
 
