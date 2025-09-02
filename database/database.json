@@ -1,0 +1,124 @@
+{
+    "comments": [
+        {
+            "id": 1,
+            "username": "nguoibian",
+            "content": "Cảnh báo! Bọn này nhận cọc rồi lừa đảo mọi người.",
+            "type": "report",
+            "created_at": "2025-08-01",
+            "status": "pending"
+        },
+        {
+            "id": 2,
+            "username": "hoangnam",
+            "content": "Bên này quỵt tiền.",
+            "type": "report",
+            "created_at": "2025-07-28",
+            "status": "pending"
+        },
+        {
+            "id": 3,
+            "username": "lananh123",
+            "content": "Mọi người cẩn thận, nhận tiền xong chặn luôn.",
+            "type": "report",
+            "created_at": "2025-07-20",
+            "status": "verified"
+        },
+        {
+            "id": 4,
+            "username": "truongphat",
+            "content": "Chủ nhà này không trả cọc, lấy lý do vô lý để giữ tiền.",
+            "type": "report",
+            "created_at": "2025-07-15",
+            "status": "resolved"
+        },
+        {
+            "id": 5,
+            "username": "phuonglinh",
+            "content": "rất thiếu uy tín.",
+            "type": "report",
+            "created_at": "2025-07-10",
+            "status": "pending"
+        },
+        {
+            "id": 6,
+            "username": "minhquan",
+            "content": "Lừa.",
+            "type": "report",
+            "created_at": "2025-07-08",
+            "status": "pending"
+        },
+        {
+            "id": 7,
+            "username": "thuydung",
+            "content": "Chủ trọ này đuổi khách rồi giữ lại toàn bộ tiền cọc.",
+            "type": "report",
+            "created_at": "2025-07-01",
+            "status": "verified"
+        },
+        {
+            "id": 8,
+            "username": "khanhvu",
+            "content": "ĐÀO.",
+            "type": "report",
+            "created_at": "2025-06-28",
+            "status": "pending"
+        },
+        {
+            "id": 9,
+            "username": "anhtu",
+            "content": "nhiều người đã bị lừa.",
+            "type": "report",
+            "created_at": "2025-06-25",
+            "status": "resolved"
+        },
+        {
+            "id": 10,
+            "username": "hoamai",
+            "content": "không trả tiền.",
+            "type": "report",
+            "created_at": "2025-06-20",
+            "status": "verified"
+        },
+        {
+            "id": 11,
+            "username": "vanlong",
+            "content": "Chặn rồi.",
+            "type": "report",
+            "created_at": "2025-06-15",
+            "status": "pending"
+        },
+        {
+            "id": 12,
+            "username": "kimanh",
+            "content": "nhận tiền rồi bỏ luôn.",
+            "type": "report",
+            "created_at": "2025-06-12",
+            "status": "resolved"
+        },
+        {
+            "id": 13,
+            "username": "thanhdat",
+            "content": "không minh bạch.",
+            "type": "report",
+            "created_at": "2025-06-08",
+            "status": "pending"
+        },
+        {
+            "id": 14,
+            "username": "lethao",
+            "content": "sống thất đức quá.",
+            "type": "report",
+            "created_at": "2025-06-05",
+            "status": "verified"
+        },
+        {
+            "id": 15,
+            "username": "duybao",
+            "content": "báo công an đi.",
+            "type": "report",
+            "created_at": "2025-06-01",
+            "status": "resolved"
+        }
+    ]
+}
