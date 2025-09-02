@@ -52,7 +52,7 @@
 }
 @media (max-width: 576px) {
     .welcome-area{
-        height: 330px;
+        height: 320px;
     }
     .header .title{
     padding:5px 0;
