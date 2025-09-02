@@ -1,0 +1,107 @@
+.header {
+    position: fixed;
+    top: 30px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    height: 100px;
+}
+.header .extend{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    min-height: 80px;
+    background: #ffffff;
+    text-align: center;
+}
+.header .title{
+    padding:10px 0;
+    font-size: 32px;
+    font-weight: 800;
+}
+.header .index ul{
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding:0;
+    flex-wrap: wrap;
+}
+.header .index a{
+    text-decoration: none;
+    color:black
+}
+.header .index a:hover{
+    color:red;
+}
+
+.welcome-area {
+    display: flex;
+    background-image: url(../images/153929_Canh_bao_lua_dao.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    overflow: hidden;
+    position: relative;
+}
+/*  */
+
+.infor{
+    padding-top:70px;
+    padding-bottom: 70px;
+    background-color: #EFEFEF;
+}
+.infor .title{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+.infor .pic{
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    width:150px;
+    height:150px;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.infor .img{
+    background-color: #fff;
+    display:flex;
+    align-items: center;
+    position:relative;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.infor .img:hover{
+    background-color: #FFD500;
+}
+.infor .pic1{
+    background-image: url(../images/89179b01-2c7b-4383-8351-9ae52eaeb5b5.jpg);
+}
+.infor .pic2{
+    background-image: url(../images/beac5716-e790-447e-91dc-0b2fb372e2de.jpg);
+}
+.infor .pic3{
+    background-image: url(../images/df5454c8-711e-4c7b-a080-c66b43f2652d.jpg);
+}
+.infor .pic4{
+    background-image: url(../images/Screenshot\ 2025-09-02\ 140843.png);
+}
+.infor .img .name{
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.infor .img h5{
+    font-weight: 700;
+    margin-bottom: 50px;
+}
