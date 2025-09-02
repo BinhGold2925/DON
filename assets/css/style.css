@@ -50,6 +50,13 @@
     overflow: hidden;
     position: relative;
 }
+@media (max-width: 576px) {
+    .welcome-area{
+        width:100vw;
+        height: 400px;
+    }
+}
+
 /*  */
 
 .infor{
@@ -101,7 +108,7 @@
     font-weight: 800;
     margin-bottom: 20px;
 }
-.infor .img h5{
+.infor .img h6{
     font-weight: 700;
     margin-bottom: 50px;
 }
