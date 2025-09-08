@@ -177,7 +177,7 @@
                     </div>
                 </div>
                 <div class="col-12 text-center">
-                    <div class="title">Video Dưới Đây-Link Tiktok</div>
+                    <div class="title" id="linktiktok">Video Dưới Đây-Link Tiktok</div>
                 </div>
                 <div class="col-12 col-sm-6">
                     <video controls loop autoplay muted>
@@ -204,7 +204,18 @@
             </div>
         </div>
     </div>
-
+    <script>
+        var linktiktok = document.querySelector("#linktiktok");
+        linktiktok.addEventListener('click', function () {
+            window.open("https://www.tiktok.com/@photthread/video/7547019266588003602")
+        });
+    </script>
+    <style>
+        #linktiktok:hover{
+            background-color: #FFD500;
+            color: red;
+        }
+    </style>
 
     <!-- comment -->
     <div class="cmt" id="comment">
