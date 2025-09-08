@@ -117,6 +117,12 @@
 .infor .pic4 {
     background-image: url(../images/Screenshot\ 2025-09-02\ 140843.png);
 }
+.infor .pic5 {
+    background-image: url(../images/Screenshot\ 2025-09-08\ 183012.png);
+}
+.infor .pic6 {
+    background-image: url(../images/Screenshot\ 2025-09-08\ 183042.png);
+}
 
 .infor .img .name {
     font-weight: 800;
@@ -201,7 +207,7 @@
     margin-top: 10px;
 }
 
-.cmt #comments {
+.cmt #comments{
     background-color: #fff;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -251,6 +257,12 @@
     width:540px;
     height:960px;
 }
+.cnt .pic7 {
+    background-image: url(../images/1.jpg);
+    width:540px;
+    height:960px;
+}
+
 .cnt video{
     width:540px;
     height:960px;
@@ -275,7 +287,7 @@
         width:100%;
         height:350px;
     }
-    .cnt .pic6{
+    .cnt .pica{
         width:450px;
         height:800px;
     }
@@ -293,7 +305,7 @@
         width:100%;
         height:280px;
     }
-    .cnt .pic6{
+    .cnt .pica{
         width:330px;
         height:590px;
     }
@@ -311,7 +323,7 @@
         width:100%;
         height:200px;
     }
-    .cnt .pic6{
+    .cnt .pica{
         width:240px;
         height:430px;
     }
@@ -358,7 +370,7 @@
         width:100%;
         height:180px;
     }
-    .cnt .pic6{
+    .cnt .pica{
         width:100%;
         height:500px;
     }
